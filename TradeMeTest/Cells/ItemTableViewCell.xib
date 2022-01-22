@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="136" id="KGk-i7-Jjw" customClass="ItemTableViewCell" customModule="TradeMeTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="136"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jx8-Yw-yyN">
+                        <rect key="frame" x="8" y="8" width="120" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="Cq2-K9-3sq"/>
+                            <constraint firstAttribute="height" constant="120" id="hKm-xF-fRj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPh-Oq-H0F">
+                        <rect key="frame" x="136" y="8" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="Text light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label L Label L Label L Label L Label L Label L Label L Label L Label L Label L Label L Label L Label L " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EW9-8E-goh">
+                        <rect key="frame" x="136" y="33" width="311.5" height="41"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1d-aM-ZpB">
+                        <rect key="frame" x="136" y="87.5" width="40.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-7Z-Bpw">
+                        <rect key="frame" x="136" y="111" width="85.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="Text light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B89-1s-hJy">
+                        <rect key="frame" x="427.5" y="87.5" width="40.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" name="Text dark - Bluff Oyster 800"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmy-gB-L7N">
+                        <rect key="frame" x="410.5" y="111" width="57.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="Text light - Bluff Oyster 600"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EW9-8E-goh" firstAttribute="top" secondItem="sPh-Oq-H0F" secondAttribute="bottom" constant="8" id="5um-6W-pyR"/>
+                    <constraint firstItem="EW9-8E-goh" firstAttribute="leading" secondItem="jx8-Yw-yyN" secondAttribute="trailing" constant="8" id="6UO-Yd-Y6X"/>
+                    <constraint firstAttribute="bottom" secondItem="ix0-7Z-Bpw" secondAttribute="bottom" constant="8" id="8Nl-aD-XSE"/>
+                    <constraint firstItem="N1d-aM-ZpB" firstAttribute="leading" secondItem="jx8-Yw-yyN" secondAttribute="trailing" constant="8" id="BeI-ej-s1V"/>
+                    <constraint firstItem="jx8-Yw-yyN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="FGk-lY-ycz"/>
+                    <constraint firstItem="sPh-Oq-H0F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="JYz-me-7VU"/>
+                    <constraint firstItem="jx8-Yw-yyN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LHX-89-613"/>
+                    <constraint firstAttribute="trailing" secondItem="xmy-gB-L7N" secondAttribute="trailing" constant="8" id="MYB-iv-R84"/>
+                    <constraint firstAttribute="trailing" secondItem="B89-1s-hJy" secondAttribute="trailing" constant="8" id="RPO-Zg-fyp"/>
+                    <constraint firstItem="xmy-gB-L7N" firstAttribute="top" secondItem="B89-1s-hJy" secondAttribute="bottom" constant="4" id="Urn-A0-Xcn"/>
+                    <constraint firstItem="sPh-Oq-H0F" firstAttribute="leading" secondItem="jx8-Yw-yyN" secondAttribute="trailing" constant="8" symbolic="YES" id="Xw1-GY-hMR"/>
+                    <constraint firstItem="ix0-7Z-Bpw" firstAttribute="top" secondItem="N1d-aM-ZpB" secondAttribute="bottom" constant="4" id="ahF-iD-KFj"/>
+                    <constraint firstAttribute="bottom" secondItem="xmy-gB-L7N" secondAttribute="bottom" constant="8" id="c8P-Bh-tOV"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EW9-8E-goh" secondAttribute="trailing" constant="8" id="cni-0w-v1a"/>
+                    <constraint firstItem="ix0-7Z-Bpw" firstAttribute="leading" secondItem="jx8-Yw-yyN" secondAttribute="trailing" constant="8" id="qB6-cQ-oyS"/>
+                    <constraint firstItem="sPh-Oq-H0F" firstAttribute="top" secondItem="jx8-Yw-yyN" secondAttribute="top" id="zhE-oo-ItZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="constraintPhotoWidth" destination="Cq2-K9-3sq" id="wIA-qY-cmi"/>
+                <outlet property="imageViewPhoto" destination="jx8-Yw-yyN" id="4H3-Ip-y0d"/>
+                <outlet property="labelBuyNow" destination="xmy-gB-L7N" id="0Kf-W4-qt4"/>
+                <outlet property="labelBuyNowPrice" destination="B89-1s-hJy" id="0af-8z-dNb"/>
+                <outlet property="labelLocation" destination="sPh-Oq-H0F" id="biL-AH-Iqv"/>
+                <outlet property="labelName" destination="EW9-8E-goh" id="Za1-DO-gNH"/>
+                <outlet property="labelPrice" destination="N1d-aM-ZpB" id="HSE-XY-cgL"/>
+                <outlet property="labelReserve" destination="ix0-7Z-Bpw" id="df5-vl-Ih2"/>
+            </connections>
+            <point key="canvasLocation" x="60.869565217391312" y="58.258928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Text dark - Bluff Oyster 800">
+            <color red="0.22352941176470589" green="0.20784313725490197" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text light - Bluff Oyster 600">
+            <color red="0.52156862745098043" green="0.50196078431372548" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

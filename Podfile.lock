@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (7.1.2)
+  - OAuthSwift (2.2.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - OAuthSwift (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - OAuthSwift
+
+SPEC CHECKSUMS:
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  OAuthSwift: 75efbb5bd9a4b2b71a37bd7e986bf3f55ddd54c6
+
+PODFILE CHECKSUM: e345edcdf34e26ade3731fc319cf23b0e3e02b3f
+
+COCOAPODS: 1.11.2
